@@ -63,6 +63,18 @@
                     <required></required>
                 </field>
             </row>
+           <row>
+            <field>
+                <dc-schema>dc</dc-schema>
+                <dc-element>contributor</dc-element>
+                <dc-qualifier>advisor</dc-qualifier>
+                <repeatable>true</repeatable>
+                <label>Supervisors</label>
+                        <input-type>name</input-type>
+                <hint>Enter the names of the supervisors of this item below.</hint>
+                <required></required>
+              </field>
+           </row>
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
@@ -161,7 +173,7 @@
                     <repeatable>true</repeatable>
                     <label>Type</label>
                     <input-type value-pairs-name="common_types">dropdown</input-type>
-                    <hint>Select the type of content of the item.
+                    <hint>Select the type(s) of content of the item.
                     </hint>
                     <required></required>
                 </field>
@@ -195,7 +207,7 @@
                     <repeatable>true</repeatable>
                     <label>Subject Keywords</label>
                     <input-type>tag</input-type>
-                    <hint>Enter appropriate subject keywords or phrases.</hint>
+                    <hint>Enter appropriate subject keywords or phrases below.</hint>
                     <required></required>
                     <vocabulary>srsc</vocabulary>
                 </field>
@@ -208,7 +220,7 @@
                     <repeatable>false</repeatable>
                     <label>Abstract</label>
                     <input-type>textarea</input-type>
-                    <hint>Enter the abstract of the item.</hint>
+                    <hint>Enter the abstract of the item below.</hint>
                     <required></required>
                 </field>
             </row>
@@ -220,7 +232,7 @@
                     <repeatable>false</repeatable>
                     <label>Sponsors</label>
                     <input-type>textarea</input-type>
-                    <hint>Enter the names of any sponsors and/or funding codes in the box.</hint>
+                    <hint>Enter the names of any sponsors and/or funding codes in the box below.</hint>
                     <required></required>
                 </field>
             </row>
