@@ -157,7 +157,7 @@
             <heading>submit.progressbar.license</heading>
             <processing-class>org.dspace.app.rest.submit.step.LicenseStep</processing-class>
             <type>license</type>
-            <scope visibilityOutside="read-only">submission</scope>
+            <!-- <scope visibilityOutside="read-only">submission</scope> -->
         </step-definition>
 
         <!-- This optional step may allow the user to select a Creative Commons license -->
@@ -283,7 +283,7 @@
             <!-- <step id="extractionstep"/> -->
 
             <!-- Uncomment this step to allow the user to select a Creative Commons License -->
-            <step id="cclicense"/>
+            <!-- <step id="cclicense"/> -->
 
             <!--Step will be to Sign off on the required DSpace License agreement -->
             <step id="license"/>
