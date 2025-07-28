@@ -186,9 +186,9 @@
         <property name="sidebarFacets">
             <list>
                 <ref bean="searchFilterAuthor" />
-                <!-- <ref bean="searchFilterSubject" /> -->
+                <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
-                <!-- <ref bean="searchFilterContentInOriginalBundle"/> -->
+                <ref bean="searchFilterContentInOriginalBundle"/>
                 <ref bean="searchFilterEntityType"/>
             </list>
         </property>
@@ -368,9 +368,9 @@
         <property name="sidebarFacets">
             <list>
                 <ref bean="searchFilterAuthor" />
-                <!-- <ref bean="searchFilterSubject" /> -->
+                <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
-                <!-- <ref bean="searchFilterContentInOriginalBundle"/> -->
+                <ref bean="searchFilterContentInOriginalBundle"/>
                 <ref bean="searchFilterEntityType"/>
             </list>
         </property>
