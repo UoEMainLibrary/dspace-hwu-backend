@@ -181,7 +181,7 @@
                 </field>
             </row>
 
-            <!-- <row>
+            <row>
                 <field>
                     <dc-schema>dc</dc-schema>
                     <dc-element>subject</dc-element>
@@ -192,7 +192,7 @@
                     <hint>Enter appropriate subject keywords or phrases. </hint>
                     <required></required>
                 </field>
-            </row> -->
+            </row>
 
             <row>
                 <field>
@@ -2220,7 +2220,7 @@
             </pair>
         </value-pairs>
 
-        <!-- <value-pairs value-pairs-name="hwu_subject" dc-term="subject">
+        <value-pairs value-pairs-name="hwu_subject" dc-term="subject">
             <pair>
                 <displayed-value>Humanities and Religion</displayed-value>
                 <stored-value>Humanities and Religion</stored-value>
@@ -2270,7 +2270,7 @@
                 <stored-value>Interdisciplinary Research Areas</stored-value>
             </pair>
 
-        </value-pairs> -->
+        </value-pairs>
 
     </form-value-pairs>
 
