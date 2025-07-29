@@ -289,7 +289,7 @@
             </row>
         </form>
 
-        <!-- <form name="hwu">
+        <form name="hwu">
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
@@ -471,7 +471,7 @@
                     <required></required>
                 </field>
             </row>
-        </form> -->
+        </form>
 
         <!-- Form which defines the *first* metadata page/section for depositing Publication Entities.
              Since Publication Entities are very similar to normal Items, this is nearly identical to the
