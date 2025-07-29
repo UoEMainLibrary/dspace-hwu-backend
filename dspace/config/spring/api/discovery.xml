@@ -188,7 +188,7 @@
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterTitleFacet" />
-                <ref bean="searchFilterContentInOriginalBundle"/>
+                <!-- <ref bean="searchFilterContentInOriginalBundle"/> -->
                 <ref bean="searchFilterEntityType"/>
             </list>
         </property>
@@ -371,7 +371,7 @@
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterTitleFacet" />
-                <ref bean="searchFilterContentInOriginalBundle"/>
+                <!-- <ref bean="searchFilterContentInOriginalBundle"/> -->
                 <ref bean="searchFilterEntityType"/>
             </list>
         </property>
@@ -2500,7 +2500,7 @@
     </bean>
 
     <bean id="searchFilterTitleFacet" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
-        <property name="indexFieldName" value="titlefacet"/>
+        <property name="indexFieldName" value="titleFacet"/>
         <property name="metadataFields">
             <list>
                 <value>dc.title</value>
