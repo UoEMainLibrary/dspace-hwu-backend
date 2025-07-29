@@ -239,7 +239,6 @@
         </form>
 
         <form name="hwu">
-
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
@@ -379,10 +378,9 @@
                     <!-- An input-type of twobox MUST be marked as repeatable -->
                     <repeatable>true</repeatable>
                     <label>Subject Keywords</label>
-                    <input-type>oneobx</input-type>
+                    <input-type value-pairs-name="hwu_subject">dropdown</input-type>
                     <hint>Enter appropriate subject keywords or phrases. </hint>
                     <required></required>
-                    <vocabulary>srsc</vocabulary>
                 </field>
             </row>
 
@@ -2171,6 +2169,58 @@
                 <displayed-value>Is a Funding Organization</displayed-value>
                 <stored-value>FundingOrganization</stored-value>
             </pair>
+        </value-pairs>
+
+        <value-pairs value-pairs-name="hwu_subject" dc-term="subject">
+            <pair>
+                <displayed-value>Humanities and Religion</displayed-value>
+                <stored-value>Humanities and Religion</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Law/Jurisprudence</displayed-value>
+                <stored-value>Law/Jurisprudence</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Social Sciences</displayed-value>
+                <stored-value>Social Sciences</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Mathematics</displayed-value>
+                <stored-value>Mathematics</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Natural Sciences</displayed-value>
+                <stored-value>Natural Sciences</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Technology</displayed-value>
+                <stored-value>Technology</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Forestry, Agricultural Sciences and Landscape Planning</displayed-value>
+                <stored-value>Forestry, Agricultural Sciences and Landscape Planning</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Medicine</displayed-value>
+                <stored-value>Medicine</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Odontology</displayed-value>
+                <stored-value>Odontology</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Pharmacy</displayed-value>
+                <stored-value>Pharmacy</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Veterinary Medicine</displayed-value>
+                <stored-value>Veterinary Medicine</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Interdisciplinary Research Areas</displayed-value>
+                <stored-value>Interdisciplinary Research Areas</stored-value>
+            </pair>
+
         </value-pairs>
 
     </form-value-pairs>
