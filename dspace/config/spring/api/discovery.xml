@@ -3416,4 +3416,9 @@
         <property name="defaultSortOrder" value="desc"/>
     </bean>
 
+    <bean id="sortTitleFacet" class="org.dspace.discovery.configuration.DiscoverySortFieldConfiguration">
+        <property name="metadataField" value="dc.title"/>
+        <property name="defaultSortOrder" value="asc"/>
+    </bean>
+
 </beans>
