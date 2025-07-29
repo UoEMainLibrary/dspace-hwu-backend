@@ -18,7 +18,7 @@
     <!-- for handle "default". -->
     <submission-map>
         <!-- Default submission process -->
-        <name-map collection-handle="default" submission-name="hwu"/>
+        <name-map collection-handle="default" submission-name="traditional"/>
 
         <!-- Sample Entities Collection configuration based on the demo Entities dataset available at:
              https://github.com/DSpace-Labs/AIP-Files/releases/tag/demo-entities-data
@@ -442,14 +442,14 @@
         </submission-process>
        -->
 
-        <submission-process name="hwu">
+        <!-- <submission-process name="hwu">
             <step id="collection"/> 
             <step id="hwu"/>
             <step id="duplicates"/>
             <step id="upload"/>
             <step id="license"/>
-        </submission-process>
-        
+        </submission-process> -->
+
     </submission-definitions>
 
 </item-submission>
