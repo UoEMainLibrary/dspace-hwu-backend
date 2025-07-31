@@ -332,19 +332,6 @@
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
-                    <dc-element>title</dc-element>
-                    <dc-qualifier>alternative</dc-qualifier>
-                    <repeatable>true</repeatable>
-                    <label>Other Titles</label>
-                    <input-type>onebox</input-type>
-                    <hint>If the item has any alternative titles, please enter them here.</hint>
-                    <required></required>
-                </field>
-            </row>
-
-            <row>
-                <field>
-                    <dc-schema>dc</dc-schema>
                     <dc-element>date</dc-element>
                     <dc-qualifier>issued</dc-qualifier>
                     <repeatable>false</repeatable>
@@ -364,19 +351,6 @@
                     <label>Publisher</label>
                     <input-type>onebox</input-type>
                     <hint>Enter the name of the publisher of the previously issued instance of this item.</hint>
-                    <required></required>
-                </field>
-            </row>
-
-            <row>
-                <field>
-                    <dc-schema>dc</dc-schema>
-                    <dc-element>identifier</dc-element>
-                    <dc-qualifier>citation</dc-qualifier>
-                    <repeatable>false</repeatable>
-                    <label>Citation</label>
-                    <input-type>onebox</input-type>
-                    <hint>Enter the standard citation for the previously issued instance of this item.</hint>
                     <required></required>
                 </field>
             </row>
@@ -442,19 +416,6 @@
                     <label>Subject Keywords</label>
                     <input-type value-pairs-name="hwu_subject">dropdown</input-type>
                     <hint>Enter appropriate subject keywords or phrases. </hint>
-                    <required></required>
-                </field>
-            </row>
-
-            <row>
-                <field>
-                    <dc-schema>dc</dc-schema>
-                    <dc-element>description</dc-element>
-                    <dc-qualifier>abstract</dc-qualifier>
-                    <repeatable>false</repeatable>
-                    <label>Abstract</label>
-                    <input-type>textarea</input-type>
-                    <hint>Enter the abstract of the item. </hint>
                     <required></required>
                 </field>
             </row>
@@ -1640,7 +1601,7 @@
         </value-pairs>
 
         <value-pairs value-pairs-name="common_types" dc-term="type">
-            <pair>
+            <!-- <pair>
                 <displayed-value>Animation</displayed-value>
                 <stored-value>Animation</stored-value>
             </pair>
@@ -1711,12 +1672,40 @@
             <pair>
                 <displayed-value>Technical Report</displayed-value>
                 <stored-value>Technical Report</stored-value>
-            </pair>
+            </pair> -->
             <pair>
                 <displayed-value>Thesis</displayed-value>
                 <stored-value>Thesis</stored-value>
             </pair>
             <pair>
+                <displayed-value>Doctor of Philosophy</displayed-value>
+                <stored-value>Doctor of Philosophy</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Doctor of Business Administration</displayed-value>
+                <stored-value>Doctor of Business Administration</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Doctor of Science</displayed-value>
+                <stored-value>Doctor of Science</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Engineering Doctorate</displayed-value>
+                <stored-value>Engineering Doctorate</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Master of Science</displayed-value>
+                <stored-value>Master of Science</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Master by Research</displayed-value>
+                <stored-value>Master by Research</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>Master of Philosophy</displayed-value>
+                <stored-value>Master of Philosophy</stored-value>
+            </pair>
+            <!-- <pair>
                 <displayed-value>Video</displayed-value>
                 <stored-value>Video</stored-value>
             </pair>
@@ -1727,7 +1716,7 @@
             <pair>
                 <displayed-value>Other</displayed-value>
                 <stored-value>Other</stored-value>
-            </pair>
+            </pair> -->
         </value-pairs>
 
         <!-- default language order: (from dspace 1.2.1)
